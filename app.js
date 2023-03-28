@@ -29,6 +29,18 @@ app.use('/', esportivoRouter);
 var utilitarioRouter = require('../routes/utilitarioRouter')
 app.use('/', utilitarioRouter);
 
+var funcionarioRouter = require('../routes/funcionarioRouter')
+app.use('/', funcionarioRouter);
+
+var clienteRouter = require('../routes/clienteRouter')
+app.use('/', clienteRouter);
+
+var promocaoRouter = require('../routes/promocaoRouter')
+app.use('/', promocaoRouter);
+
+var reservaRouter = require('../routes/reservaRouter')
+app.use('/', reservaRouter);
+
 const PORT = 3000;
 const HOST = '0.0.0.0';
 
